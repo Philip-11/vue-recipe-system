@@ -1,11 +1,22 @@
-<script setup></script>
+<script setup>
+  import NavBar from './components/NavBar.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <NavBar></NavBar>
+
+  <section>
+    <form action="">
+      <h1>Login Here</h1>
+      <label for="email">Email:</label>
+      <input type="email" name="email">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+
+      <input type="submit" value="Login">
+      <a href="">Don't have an account yet?</a>
+    </form>
+  </section>
 </template>
 
 <style scoped></style>
