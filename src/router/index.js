@@ -1,9 +1,9 @@
 import { createRouter, createMemoryHistory } from 'vue-router';
 
-import { App } from 'vue';
+import LoginVue from '@/views/Login.vue';
 
 const routes = [
-	{ path: '/', component: App }
+	{ path: '/', component: LoginVue }
 ]
 
 export const router = createRouter({
