@@ -1,6 +1,7 @@
 <template>
 	<nav>
-	    <a href="">Home</a>
-	    <a href="">Account</a>
-  	</nav>
+		<RouterLink to="/">Home</RouterLink>
+		<RouterLink to="/">Account</RouterLink>
+		<RouterLink to="/login">Login</RouterLink>
+	</nav>
 </template>
