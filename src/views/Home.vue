@@ -14,6 +14,6 @@ const recipes = ref([
 </script>
 
 <template>
-	<RecipeCardVue v-for="recipe in recipes" :key="recipe.id" :title="recipe.title" :description="recipe.description">
+	<RecipeCardVue v-for="recipe in recipes" :key="recipe.id" :id="recipe.id" :title="recipe.title" :description="recipe.description">
 	</RecipeCardVue>
 </template>

@@ -1,15 +1,17 @@
 <script setup>
 const props = defineProps({
+	id: Number,
 	title: String,
 	description: String
 })
 </script>
 <template>
 	<div>
-		<a href="">
+		<RouterLink :to="'/recipe/' + id" >
+			<p>{{ id }}</p>
 			<h1>{{ title }}</h1>
 			<p>{{ description }} </p>
-		</a>
+		</RouterLink>
 		<button>Like</button>
 	</div>
 </template>
