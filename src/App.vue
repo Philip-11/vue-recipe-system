@@ -12,9 +12,6 @@ function login() {
 <template>
   <header>
     <NavBar></NavBar>
-    <div>
-      <button>Create Post</button>
-    </div>
   </header>
 
   <router-view />
