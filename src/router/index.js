@@ -7,7 +7,7 @@ import RecipeDetail from '@/views/RecipeDetail.vue';
 const routes = [
 	{ path: '/login', component: LoginVue },
 	{ path: '/', component: HomeVue },
-	{ path: '/recipe/:id', component: RecipeDetail }
+	{ path: '/recipe/:id', component: RecipeDetail, props: true}
 ]
 
 export const router = createRouter({
